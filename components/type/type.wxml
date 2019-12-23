@@ -1,0 +1,26 @@
+<view class="sort">
+  <view class="sort-title">
+    <text class="look-all">{{title}}</text>
+    <view class="more">
+      <text class="word">查看全部</text>
+      <icon class="iconfont icon-dayu"></icon>
+    </view>
+  </view>
+  <view class="sort-content number">
+    <scroll-view class="box" scroll-x="true" scroll-y='false'>
+      <view class="out three">
+        <block>
+          <view class="sort-content-item show" wx:for='{{sorts}}' wx:key='index' wx:if="{{sss==1?index<6:index<100}}">
+            <navigator url="/pages/science/science?type={{item.type}}">
+              <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+              <text class="word" v-if='{{sss!=1}}'>{{item.type}}</text>
+              <text class="word" v-if='{{sss==1}}'>{{item.name}}</text>
+              <text class="word">{{item.bookname}}</text>
+              <text class="author">{{item.writername}}</text>
+            </navigator>
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>

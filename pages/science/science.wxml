@@ -1,0 +1,23 @@
+<view class="science ">
+  <view class="science-title wrapper">
+    <navigator open-type='navigateBack'>
+      <icon class="iconfont icon-jiang-up-left"></icon>
+    </navigator>
+    <text class="word">{{options.type}}</text>
+    <icon class="iconfont icon-caidan"></icon>
+  </view>
+  <view class="science-content wrapper">
+    <block>
+      <view class="science-content-item" wx:for='{{books}}' wx:key='index' wx:if='{{item.type==options.type}}'>
+        <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+        <view class="title">
+          <text class="bookname">{{item.bookname}}</text>
+          <icon class="iconfont icon-caidan1"></icon>
+        </view>
+        <text class="author">作者:{{item.writername}}</text>
+        <text class="about">{{item.about}}</text>
+      </view>
+    </block>
+  </view>
+
+</view>

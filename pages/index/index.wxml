@@ -1,0 +1,48 @@
+<view class="box">
+  <view class="header wrapper">
+    <icon class="iconfont icon-jiangbei"></icon>
+    <icon class="iconfont icon-caidan"></icon>
+  </view>
+  <view class="search wrapper">
+    <icon class="iconfont icon-xingtaiduICON_sousuo---copy"></icon>
+    <input type="text" class="select" placeholder="搜索..." />
+  </view>
+  <template-type title='{{title[0]}}' sorts='{{fenlei}}'></template-type>
+  <template-type title='{{title[1]}}' sorts='{{writers}}'></template-type>
+  <template-type sss='1' title='{{title[2]}}' sorts='{{books}}' number='newsortContent' image='newImage' show='newShow' three='newThress'></template-type>
+
+  <view class="hostser">
+    <view class="hostser-title">
+      <text class="look-all">热门搜索</text>
+    </view>
+    <view class="hostser-content">
+        <text class="hostser-item" style="color:{{colors[index]}};border-color:{{colors[index]}}" wx:for='{{hostser}}' wx:key="index">{{item.title}}</text>
+    </view>
+  </view>
+  <view class="hot">
+    <view class="hot-title">
+      <text class="look-all">热销榜</text>
+      <view class="more">
+        <text class="word">查看全部</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+    </view>
+    <view class="hot-content number">
+      <scroll-view class="box" scroll-x="true" scroll-y='false'>
+        <view class="out">
+          <block>
+            <view class="hot-content-item" wx:for='{{books}}' wx:key='index'>
+              <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+              <view class="title">
+                <text class="bookname">{{item.bookname}}</text>
+                <icon class="iconfont icon-caidan1"></icon>
+              </view>
+              <text class="author">作者:{{item.writername}}</text>
+              <text class="about">{{item.about}}</text>
+            </view>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

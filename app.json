@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/science/science",
+    "pages/explore/explore",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/shome.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "iconPath": "./image/Shap.png",
+        "selectedIconPath": "./image/Shape.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./image/book.png",
+        "selectedIconPath": "./image/books.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./image/myself.png",
+        "selectedIconPath": "./image/myself.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

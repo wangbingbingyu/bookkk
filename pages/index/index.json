@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "template-type": "/components/type/type"
+    "template-type": "/components/type/type",
+    "template-author": "/components/exploreall/exploreall",
+    "template-newput": "/components/newpush/newpush"
   }
 }

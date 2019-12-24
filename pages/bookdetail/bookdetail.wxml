@@ -1,0 +1,86 @@
+<view class='box'>
+  <icon class="iconfont icon-jiantou"></icon>
+  <view class="content">
+    <image src="{{items.touxiang}}"></image>
+    <view class="rigth">
+      <text class="bookname">{{items.bookname}}</text>
+      <text class="author">作者：{{items.writername}}</text>
+      <text class="about">{{items.about}}</text>
+      <view class="fenshus">
+        <icon class="iconfont icon-start"></icon>
+        <icon class="iconfont icon-start"></icon>
+        <icon class="iconfont icon-start"></icon>
+        <icon class="iconfont icon-start"></icon>
+        <icon class="iconfont icon-start"></icon>
+        <text class="fenshu">5.0</text>
+      </view>
+    </view>
+  </view>
+  <view class="caozuo">
+    <view class="shoucang item">
+      <icon class="iconfont icon-xin"></icon>
+      <text class="word">收藏</text>
+    </view>
+    <view class="fenxiang item" bindtap="showsss">
+      <icon class="iconfont icon-fenxiang"></icon>
+      <text class="word">分享</text>
+    </view>
+    <view class="shujia item" bindtap="buttonTap">
+      <icon class="iconfont icon-stake-copy-copy"></icon>
+      <text class="word">书架</text>
+    </view>
+    <view class="modals" hidden="{{hidden}}">
+      <image src="{{items.touxiang}}"></image>
+      <view class="text">已经将这本书加入到个人书架</view>
+      <text class="word" bindtap="close">好的</text>
+    </view>
+    <view class="fenxiangs" hidden="{{hiddens}}">
+      <text class="closess" bindtap="closeit">x</text>
+      <view class="outimage">
+        <image src="../../image/friend.png"></image>
+        <image src="../../image/qqhome.png"></image>
+        <image src="../../image/wb.png"></image>
+        <image src="../../image/qq.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="comment">
+    <text class="title">详情</text>
+    <text class="comment-item">{{comment}}</text>
+  </view>
+  <view class="mulu">
+    <text class="mulus">查看目录</text>
+    <icon class="iconfont icon-dayu"></icon>
+  </view>
+  <view class="pinglun">
+    <view class="pinglun-title">
+      <view class="left">
+        <text class="titlet">评论</text>
+        <text class="num">215条评论</text>
+      </view>
+      <icon class="iconfont icon-post"></icon>
+    </view>
+    <view class="pinglun-item">
+      <image src="../../image/book.jpg"></image>
+      <view class="pinglun-item-right">
+        <text class="name">你个废物</text>
+        <text class="contents">
+          大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典站在圣母和傻逼的微笑曲线上。大刘塑造的男性都带有明显的缺陷但本质，上极端人性化。-身痞气的小人物大史，最高情商让他活得最明白;罗辑的荒唐和不羁让他成了救世主，但也决定了他必不能善终;软弱怯懦固执的云天明，也并无理由因为慷慨和运气就得到爱啊。但我真心理解这样的人，这样的性格，这样的命运。
+        </text>
+        <view class="bottom">
+          <text class="time">12-24 12:20</text>
+          <view class="bottom-right">
+            <text class="iconfont icon-xin"></text>
+            <text class="nums">134</text>
+            <text class="iconfont icon-huifu"></text>
+            <text class="huifunum">83</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="abili">
+    <view class="lookit">试看</view>
+    <view class="buy">购买</view>
+  </view>
+</view>

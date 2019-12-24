@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/science/science",
+    "pages/search/search",
     "pages/explore/explore",
+    "pages/bookdetail/bookdetail",
+    "pages/shujia/shujia",
     "pages/logs/logs"
   ],
   "window": {
@@ -12,6 +15,8 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "position":"bottom",
+    "backgroundColor": "#2a313a",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -24,7 +29,7 @@
         "selectedIconPath": "./image/Shape.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/shujia/shujia",
         "iconPath": "./image/book.png",
         "selectedIconPath": "./image/books.png"
       },

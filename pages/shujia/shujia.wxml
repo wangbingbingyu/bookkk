@@ -1,0 +1,8 @@
+<view class='box'>
+  <view class='shujia wrapper'>
+    <view class="shujia-title">
+      <text class="name">书架</text>
+        <icon class="iconfont icon-caidan"></icon>
+    </view>
+  </view>
+</view>

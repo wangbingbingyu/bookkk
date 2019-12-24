@@ -13,7 +13,7 @@
           <view class="sort-content-item show" wx:for='{{sorts}}' wx:key='index'>
             <navigator url="/pages/science/science?type={{item.type}}">
               <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
-              <text class="word">{{item.type}}</text>
+              <text class="word">{{item.name}}</text>
             </navigator>
           </view>
         </block>

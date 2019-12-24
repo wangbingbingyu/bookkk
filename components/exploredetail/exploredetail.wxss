@@ -1,0 +1,106 @@
+.explore-content {
+  margin: 0 92rpx;
+  margin-right: -30rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.explore-content-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30rpx;
+  align-items: center;
+}
+
+.explore-content-item image {
+  width: 268rpx;
+  height: 400rpx;
+  margin-bottom: 26rpx;
+}
+
+.explore-content-item .test {
+  color: white;
+  font-size: 28rpx;
+  margin-bottom: 32rpx;
+}
+
+.exploredetail {
+  margin-left: 180rpx;
+  margin-right: 180rpx;
+  margin-top: -60rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 390rpx;
+  height: 580rpx;
+  margin-bottom: 46rpx;
+}
+
+.bookname {
+  font-size: 44rpx;
+  margin-bottom: 30rpx;
+  color: white;
+  text-align: center;
+}
+
+.author {
+  font-size: 36rpx;
+  color: #656a7b;
+  padding-bottom: 74rpx;
+  border-bottom: 2rpx solid #656a7b;
+  margin-bottom: 44rpx;
+   text-align: center;
+}
+
+.imgs {
+  display: flex;
+  margin-bottom: 38rpx;
+  justify-content: center;
+}
+
+.imgs image {
+  width: 68rpx;
+  height: 68rpx;
+  margin-right: 12rpx;
+  border-radius: 50%;
+}
+
+.munbder {
+  color: #656a7b;
+  font-size: 24rpx;
+  margin-bottom: 82rpx;
+  text-align: center;
+}
+
+.recommend {
+  width: 238rpx;
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  margin-bottom: 70rpx;
+  background-color: #15191d;
+  position: relative;
+  left: 340rpx;
+  height: 82rpx;
+}
+
+.recommend image {
+  width: 68rpx;
+  height: 68rpx;
+  float: left;
+  margin-left: 8rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+
+.recommend-name {
+  display: block;
+  font-size: 24rpx;
+  color: white;
+}
+
+.word {
+  color: #656a7b;
+  font-size: 22rpx;
+}

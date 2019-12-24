@@ -1,0 +1,25 @@
+<view class="explore-content" hidden="{{show}}">
+  {{shows}}
+  <block>
+    <view class="explore-content-item" data-ind="{{index}}" wx:for='{{books}}' wx:key="{{item.id}}" bindtap="book">
+      <image src="{{item.touxiang}}"></image>
+      <text class="test">{{item.bookname}}</text>
+    </view>
+  </block>
+</view>
+
+<view class='exploredetail' hidden="{{!show}}">
+  {{hidden}}
+  <image class="img" src="{{books[index].touxiang}}"></image>
+  <text class="bookname">{{books[index].bookname}}</text>
+  <text class="author">{{books[index].writername}}</text>
+  <view class="imgs">
+    <image wx:for="{{arr}}" src='{{users[0].touxiang}}' wx:key="index"></image>
+  </view>
+  <text class="munbder">457人已阅读</text>
+  <view class="recommend">
+    <image src="{{users[0].touxiang}}"></image>
+    <text class="recommend-name">{{users[0].name}}</text>
+    <text class="word">推荐</text>
+  </view>
+</view>

@@ -13,3 +13,15 @@
   width: 660rpx;
   margin: 0 auto;
 }
+
+.box{
+  background-color: #21272e;
+}
+
+.clearfix:after{
+  display: block;
+  height: 0;
+  line-height: 0;
+  contain: "";
+  clear:both;
+}

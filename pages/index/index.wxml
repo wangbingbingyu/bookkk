@@ -4,19 +4,21 @@
     <icon class="iconfont icon-caidan"></icon>
   </view>
   <view class="search wrapper">
-    <icon class="iconfont icon-xingtaiduICON_sousuo---copy"></icon>
-    <input type="text" class="select" placeholder="搜索..." />
+    <navigator url="/pages/search/search">
+      <icon class="iconfont icon-xingtaiduICON_sousuo---copy"></icon>
+      <input type="text" class="select" placeholder="搜索..." />
+    </navigator>
   </view>
   <template-type title='{{title[0]}}' sorts='{{fenlei}}'></template-type>
-  <template-type title='{{title[1]}}' sorts='{{writers}}'></template-type>
-  <template-type sss='1' title='{{title[2]}}' sorts='{{books}}' number='newsortContent' image='newImage' show='newShow' three='newThress'></template-type>
+  <template-author title='{{title[1]}}' sorts='{{writers}}'></template-author>
+  <template-newput title='{{title[2]}}' sorts='{{books}}' number='newsortContent' image='newImage' show='newShow' three='newThress'></template-newput>
 
   <view class="hostser">
     <view class="hostser-title">
       <text class="look-all">热门搜索</text>
     </view>
     <view class="hostser-content">
-        <text class="hostser-item" style="color:{{colors[index]}};border-color:{{colors[index]}}" wx:for='{{hostser}}' wx:key="index">{{item.title}}</text>
+      <text class="hostser-item" style="color:{{colors[index]}};border-color:{{colors[index]}}" wx:for='{{hostser}}' wx:key="index">{{item.title}}</text>
     </view>
   </view>
   <view class="hot">

@@ -1,2 +1,12 @@
-<!--pages/explore/explore.wxml-->
-<text>pages/explore/explore.wxml</text>
+<view class='box'>
+  <view class='explore wrapper'>
+    <view class="explore-title">
+      <text class="name">探索</text>
+      <image src="../../image/tsicon1.png" bindtap="change" hidden='{{!show}}'></image>
+      <image src="../../image/tsicon1a.png" bindtap="change" hidden='{{show}}'></image>
+      <image src="../../image/tsicon2a.png" bindtap="change" hidden='{{!show}}'></image>
+      <image src="../../image/tsicon2.png" bindtap="change" hidden='{{show}}'></image>
+    </view>
+  </view>
+  <template-detail bind:myevent="turn"  books='{{books}}' users='{{users}}' show="{{show}}"></template-detail>
+</view>

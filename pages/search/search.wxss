@@ -1,0 +1,109 @@
+@import '../../style/iconfont.wxss';
+
+.box {
+  overflow: hidden;
+  height: 1200rpx;
+}
+
+.search {
+  position: relative;
+  background-color: #2d353d;
+  color: #9299a9;
+  border-radius: 50rpx;
+  margin-bottom: 68rrpx;
+  margin-top: 50rpx;
+}
+
+.search .iconfont {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 16rpx;
+  z-index: 20;
+}
+
+.search .select {
+  height: 96rpx;
+  padding-left: 100rpx;
+}
+
+.sort {
+  margin-top: 60rpx;
+}
+
+.sort-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 660rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+  margin-top: 68rpx;
+}
+
+.sort-title .look-all {
+  font-size: 36rpx;
+  color: white;
+}
+
+.sort-title .word {
+  color: #959bac;
+  font-size: 26rpx;
+  vertical-align: middle;
+  line-height: 52rpx;
+}
+
+.sort-title .iconfont {
+  color: #959bac;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+
+.hot {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #262a31;
+  margin-bottom: 50rpx;
+}
+
+.hot image {
+  width: 192rpx;
+  height: 296rpx;
+  margin-bottom: 36rpx;
+}
+
+.hot-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookname {
+  font-size: 28rpx;
+  color: white;
+  margin-bottom: 14rpx;
+}
+
+.writer {
+  font-size: 24rpx;
+  color: #5d637c;
+  padding-bottom: 34rpx;
+}
+
+.history .sort-title {
+  margin-bottom: 30rpx;
+}
+
+.his {
+  display: flex;
+}
+
+.his text {
+  padding: 0 36rpx;
+  line-height: 60rpx;
+  margin-right: 16rpx;
+  color: white;
+  border-radius: 30rpx;
+  background-color: #45485b;
+  font-size: 22rpx;
+}

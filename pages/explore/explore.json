@@ -1,4 +1,7 @@
 {
   "navigationBarTitleText": "探索",
-  "usingComponents": {}
+  "usingComponents": {
+    "template-all":"/components/exploreall/exploreall",
+    "template-detail":"/components/exploredetail/exploredetail"
+  }
 }

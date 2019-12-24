@@ -30,7 +30,7 @@
 
 .search .select {
   height: 96rpx;
-  text-indent: 100rpx;
+  padding-left:100rpx;
 }
 
 .newsortContent {
@@ -196,4 +196,5 @@
   -webkit-box-orient: vertical;
   color: #777e99;
   font-size: 24rpx;
+  width: 346rpx;
 }

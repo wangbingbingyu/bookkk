@@ -35,6 +35,11 @@ Page({
         hostser: app.globalData.hostser
       });
     });
+    app.GetusersData().then((res) => {
+      that.setData({
+        users: app.globalData.users
+      });
+    });
   },
 
   /**

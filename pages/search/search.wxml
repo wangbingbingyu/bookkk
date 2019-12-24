@@ -1,0 +1,32 @@
+<view class='box'>
+  <view class="search wrapper">
+    <icon class="iconfont icon-xingtaiduICON_sousuo---copy"></icon>
+    <input type="text" class="select" placeholder="搜索..." />
+  </view>
+  <view class="sort-title">
+    <text class="look-all">热门搜索</text>
+    <view class="more">
+      <text class="word">查看全部</text>
+      <icon class="iconfont icon-dayu"></icon>
+    </view>
+  </view>
+  <view class="hot wrapper">
+    <view class="hot-item" wx:for="{{books}}" wx:if="{{index<3}}" wx:key="index">
+      <image src="{{item.touxiang}}"></image>
+      <text class="bookname">{{item.bookname}}</text>
+      <text class="writer">{{item.writername}}</text>
+    </view>
+  </view>
+
+  <view class="history">
+    <view class="sort-title">
+      <text class="look-all">热门搜索</text>
+      <text class=""></text>
+    </view>
+    <view class="his wrapper">
+      <text class="fir">艺术设计</text>
+      <text class="sec">人体自由雕塑</text>
+      <text class="third">人文环境</text>
+    </view>
+  </view>
+</view>

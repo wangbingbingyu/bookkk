@@ -1,0 +1,79 @@
+@import '../../style/iconfont.wxss';
+
+.sort {
+  margin-top: 60rpx;
+}
+
+.sort-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 660rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+}
+
+.sort-title .look-all {
+  font-size: 36rpx;
+  color: white;
+}
+
+.sort-title .word {
+  color: #959bac;
+  font-size: 26rpx;
+  vertical-align: middle;
+  line-height: 52rpx;
+}
+
+.iconfont {
+  color: #959bac;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+
+.sort-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 48rpx;
+  overflow: hidden;
+  border-bottom: 2rpx solid #2f343c;
+  position: relative;
+}
+
+.sort-content-item {
+  margin-right: 30rpx;
+  margin-bottom: 60rpx;
+  float: left;
+}
+
+image {
+  width: 160rpx;
+  height: 160rpx;
+  margin-bottom: 20rpx;
+}
+
+.word {
+  color: white;
+  font-size: 28rpx;
+}
+
+.author {
+  font-size: 24rpx;
+  color: #5d637c;
+}
+
+.box {
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.box .out {
+  display: flex;
+}
+
+navigator {
+  display: flex;
+  flex-direction: column;
+}

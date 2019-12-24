@@ -10,10 +10,11 @@
     <scroll-view class="box" scroll-x="true" scroll-y='false'>
       <view class="out three">
         <block>
-          <view class="sort-content-item show" wx:for='{{sorts}}' wx:key='index'>
-            <navigator url="/pages/science/science?type={{item.type}}">
+          <view class="sort-content-item show" wx:for='{{sorts}}' wx:key='index' wx:if="{{index<6}}">
+            <navigator url="/pages/bookdetail/bookdetail?type={{item.id}}">
               <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
-              <text class="word">{{item.type}}</text>
+              <text class="word">{{item.bookname}}</text>
+              <text class="author">{{item.writername}}</text>
             </navigator>
           </view>
         </block>

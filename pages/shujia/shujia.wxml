@@ -1,8 +1,38 @@
 <view class='box'>
-  <view class='shujia wrapper'>
+  <view class='shujia center'>
     <view class="shujia-title">
       <text class="name">书架</text>
-        <icon class="iconfont icon-caidan"></icon>
+      <icon class="iconfont icon-caidan"></icon>
+    </view>
+  </view>
+  <view class="reading center">
+    <view class="reading-title">
+      <text class="look-all">正在阅读</text>
+      <view class="more">
+        <text class="word">查看全部</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+    </view>
+    <view class="reading-content">
+      <view class="reading-content-item" wx:for="{{books}}" wx:key="index" wx:if="{{index<3}}">
+        <image src="{{item.touxiang}}"></image>
+        <text class="bookname">{{item.bookname}}</text>
+        <text class="author">{{item.writername}}</text>
+      </view>
+    </view>
+    <view class="reading-title">
+      <text class="look-all">未看</text>
+      <view class="more">
+        <text class="word">查看全部</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+    </view>
+    <view class="reading-content second">
+      <view class="reading-content-item" wx:for="{{books}}" wx:key="index" wx:if="{{index>2}}">
+        <image src="{{item.touxiang}}"></image>
+        <text class="bookname">{{item.bookname}}</text>
+        <text class="author">{{item.writername}}</text>
+      </view>
     </view>
   </view>
 </view>

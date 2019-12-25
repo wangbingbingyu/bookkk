@@ -1,0 +1,58 @@
+<view class='box'>
+  <view class='owner center'>
+    <view class="owner-title">
+      <text class="name">书架</text>
+      <navigator url="/pages/shezhi/shezhi">
+        <image src="../../image/clun.png"></image>
+      </navigator>
+    </view>
+    <view class="owner-inform">
+      <image src="{{users[0].touxiang}}"></image>
+      <view class="owner-detail">
+        <text class="name">{{users[0].name}}</text>
+        <text class="address">{{users[0].country}}▪{{users[0].city}}</text>
+      </view>
+      <view class="fenxiang">
+        <image src="../../image/linkto.png"></image>
+        <text class="word">分享</text>
+      </view>
+    </view>
+    <view class="owner-details">
+      <view class="guanzhu item">
+        <text class="num">{{users[0].guanz}}</text>
+        <text class="word">关注</text>
+      </view>
+      <view class="fans item">
+        <text class="num">{{users[0].fens}}</text>
+        <text class="word">粉丝</text>
+      </view>
+      <view class="love item">
+        <text class="num">{{users[0].likes}}</text>
+        <text class="word">喜欢</text>
+      </view>
+    </view>
+  </view>
+  <view class="some-inform">
+    <view class="personal items">
+      <text class="inform">个人信息</text>
+      <icon class="iconfont icon-dayu"></icon>
+    </view>
+    <view class="message items">
+      <text class="inform">我的消息</text>
+      <text class="nums">6</text>
+    </view>
+    <navigator url="/pages/balance/balance">
+      <view class="balance items">
+        <text class="inform">账户余额</text>
+        <view class="right">
+          <text class="money">{{users[0].moneys}}</text>
+          <icon class="iconfont icon-dayu"></icon>
+        </view>
+      </view>
+    </navigator>
+    <view class="pinglun items">
+      <text class="inform">我的评论</text>
+      <icon class="iconfont icon-dayu"></icon>
+    </view>
+  </view>
+</view>

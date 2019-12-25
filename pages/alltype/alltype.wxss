@@ -1,0 +1,131 @@
+@import '../../style/iconfont.wxss';
+
+.center {
+  width: 654rpx;
+  margin: 0 auto;
+}
+
+.alltype-title {
+  display: flex;
+  margin-bottom: 66rpx;
+}
+
+.alltype-title .iconfont {
+  color: white;
+}
+
+.alltype-title .word {
+  margin-left: 250rpx;
+  color: white;
+  font-size: 44rpx;
+}
+
+.search {
+  position: relative;
+  background-color: #2d353d;
+  color: #9299a9;
+  border-radius: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.search .iconfont {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 16rpx;
+  z-index: 20;
+}
+
+.search .select {
+  height: 96rpx;
+  padding-left: 100rpx;
+}
+
+.type-scoll {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  white-space: nowrap;
+  border-bottom: 2rpx solid #2d353d;
+}
+
+.out{
+    margin-left: 40rpx;
+}
+
+.types-item {
+  display: inline-block;
+  color: #545f6c;
+  font-size: 32rpx;
+  width: 130rpx;
+  text-align: center;
+  padding-bottom: 36rpx;
+}
+
+.active {
+  border-bottom: 2rpx solid #fb6894;
+  color: white;
+}
+
+.new-push {
+  margin-top: 70rpx;
+}
+
+.new-push-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 660rpx;
+  margin: 0 auto;
+}
+
+.new-push-title .look-all {
+  font-size: 36rpx;
+  color: white;
+}
+
+.new-push-title .word {
+  color: #959bac;
+  font-size: 26rpx;
+  vertical-align: middle;
+  line-height: 52rpx;
+}
+
+.iconfont {
+  color: #959bac;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+
+.new-push-content {
+  margin-top: 60rpx;
+  display: flex;
+  padding-right: 48rpx;
+  margin-left: 48rpx;
+  border-bottom: 2rpx solid #2d353d;
+    padding-bottom: 84rpx;
+}
+
+.new-push-content-item {
+  display: flex;
+  margin-right: 36rpx;
+  flex-direction: column;
+}
+
+.new-push-content-item image {
+  width: 192rpx;
+  height: 296rpx;
+}
+
+.new-push-content-item .bookname {
+  color: white;
+  font-size: 28rpx;
+  margin-top: 36rpx;
+  margin-bottom: 14rpx;
+}
+
+.new-push-content-item .author {
+  font-size: 24rpx;
+  color: #5d637c;
+}

@@ -1,17 +1,19 @@
 <view class="sort">
   <view class="sort-title">
     <text class="look-all">{{title}}</text>
-    <view class="more">
-      <text class="word">查看全部</text>
-      <icon class="iconfont icon-dayu"></icon>
-    </view>
+    <navigator url="/pages/allwriter/allwriter">
+      <view class="more">
+        <text class="word">查看全部</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+    </navigator>
   </view>
   <view class="sort-content number">
     <scroll-view class="box" scroll-x="true" scroll-y='false'>
       <view class="out three">
         <block>
           <view class="sort-content-item show" wx:for='{{sorts}}' wx:key='index'>
-            <navigator url="/pages/science/science?type={{item.type}}">
+            <navigator url="/pages/writer/writer?type={{item.name}}">
               <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
               <text class="word">{{item.name}}</text>
             </navigator>

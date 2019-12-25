@@ -1,14 +1,85 @@
 @import '../../style/iconfont.wxss';
+
 .shujia{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 140rpx;
+  margin-bottom: 60rpx;
 }
 
 .name {
   color: white;
   font-size: 44rpx;
-  margin-right: 195rpx;
+  margin-right: 246rpx;
 }
 
+.shujia-title .icon-caidan{
+  color: white;
+  font-size: 30rpx;
+}
+
+.center{
+  width: 654rpx;
+  margin: 0 auto;
+}
+
+.reading-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 660rpx;
+  margin: 0 auto;
+  margin-bottom: 38rpx;
+}
+
+.reading-title .look-all {
+  font-size: 36rpx;
+  color: white;
+}
+
+.reading-title .word {
+  color: #959bac;
+  font-size: 26rpx;
+  vertical-align: middle;
+  line-height: 52rpx;
+}
+
+.iconfont {
+  color: #959bac;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+
+.reading-content{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20rpx;
+  flex-wrap: wrap;
+}
+
+.reading-content-item{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 70rpx;
+}
+
+.reading-content-item image{
+  width: 192rpx;
+  height: 292rpx;
+}
+
+.reading-content-item .bookname{
+  font-size: 28rpx;
+  color: white;
+  margin-top: 36rpx;
+  margin-bottom: 14rpx;
+}
+
+.reading-content-item .author{
+  font-size: 24rpx;
+  color: #5d637c;
+}
+
+.second{
+  padding-bottom:0 
+}

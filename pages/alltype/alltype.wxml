@@ -1,0 +1,61 @@
+<view class="box">
+  <view class="alltype">
+    <view class="alltype-title center">
+      <navigator open-type='navigateBack'>
+        <icon class="iconfont icon-jiantou"></icon>
+      </navigator>
+      <text class="word">作者</text>
+    </view>
+    <view class="search center">
+      <navigator url="/pages/search/search">
+        <icon class="iconfont icon-xingtaiduICON_sousuo---copy"></icon>
+        <input type="text" class="select" placeholder="搜索..." />
+      </navigator>
+    </view>
+    <view class="types">
+      <scroll-view class="type-scoll" scroll-x='true'>
+        <view class="out">
+          <block>
+            <text class="types-item {{type==item.type?'active':''}}" wx:for="{{fenlei}}" wx:key="index" data-num="{{item.type}}" bindtap='change'>{{item.type}}</text>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="new-push">
+      <view class="new-push-title center">
+        <text class="look-all">新上架</text>
+        <navigator url="/pages/alltype/alltype">
+          <view class="more">
+            <text class="word">查看全部</text>
+            <icon class="iconfont icon-dayu"></icon>
+          </view>
+        </navigator>
+      </view>
+      <view class="new-push-content">
+        <view class="new-push-content-item" wx:for="{{books}}" wx:key="index" wx:if="{{index<3}}">
+          <image src="{{item.touxiang}}"></image>
+          <text class="bookname">{{item.bookname}}</text>
+          <text class="author">{{item.writername}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="new-push hot">
+      <view class="new-push-title center">
+        <text class="look-all">新上架</text>
+        <navigator url="/pages/alltype/alltype">
+          <view class="more">
+            <text class="word">查看全部</text>
+            <icon class="iconfont icon-dayu"></icon>
+          </view>
+        </navigator>
+      </view>
+      <view class="new-push-content">
+        <view class="new-push-content-item" wx:for="{{books}}" wx:key="index" wx:if="{{index<3}}">
+          <image src="{{item.touxiang}}"></image>
+          <text class="bookname">{{item.bookname}}</text>
+          <text class="author">{{item.writername}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

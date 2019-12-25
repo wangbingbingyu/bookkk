@@ -1,10 +1,12 @@
 <view class="sort">
   <view class="sort-title">
     <text class="look-all">{{title}}</text>
-    <view class="more">
-      <text class="word">查看全部</text>
-      <icon class="iconfont icon-dayu"></icon>
-    </view>
+    <navigator url="/pages/alltype/alltype">
+      <view class="more">
+        <text class="word">查看全部</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+    </navigator>
   </view>
   <view class="sort-content number">
     <scroll-view class="box" scroll-x="true" scroll-y='false'>

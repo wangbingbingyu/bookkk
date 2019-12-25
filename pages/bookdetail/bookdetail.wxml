@@ -1,5 +1,7 @@
 <view class='box'>
-  <icon class="iconfont icon-jiantou"></icon>
+  <navigator open-type="navigateBack">
+    <icon class="iconfont icon-jiantou"></icon>
+  </navigator>
   <view class="content">
     <image src="{{items.touxiang}}"></image>
     <view class="rigth">
@@ -7,12 +9,8 @@
       <text class="author">作者：{{items.writername}}</text>
       <text class="about">{{items.about}}</text>
       <view class="fenshus">
-        <icon class="iconfont icon-start"></icon>
-        <icon class="iconfont icon-start"></icon>
-        <icon class="iconfont icon-start"></icon>
-        <icon class="iconfont icon-start"></icon>
-        <icon class="iconfont icon-start"></icon>
-        <text class="fenshu">5.0</text>
+        <icon class="iconfont icon-start" wx:for="{{items.star-0}}" wx:key='index'></icon>
+        <text class="fenshu">{{items.star}}</text>
       </view>
     </view>
   </view>

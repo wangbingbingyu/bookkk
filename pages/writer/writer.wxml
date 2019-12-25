@@ -1,0 +1,60 @@
+<view class="box">
+  <view class="writer">
+    <view class="writer-title center">
+      <navigator open-type='navigateBack'>
+        <icon class="iconfont icon-jiantou"></icon>
+      </navigator>
+      <text class="word">作者</text>
+    </view>
+    <view class="writer-inform center">
+      <image src="{{writerer[0].touxiang}}"></image>
+      <view class="outit">
+        <view class="writer-detail">
+          <text class="name">{{writerer[0].name}}</text>
+          <text class="address">{{writerer[0].country}}▪{{writerer[0].city}}</text>
+        </view>
+        <view class="outsit">
+          <view class="fenxiang">
+            <image src="../../image/linkto.png"></image>
+            <text class="word">分享</text>
+          </view>
+          <view class="guanzhus">
+            <text class="word">+关注</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="writer-details center">
+      <view class="guanzhu item">
+        <text class="num">0</text>
+        <text class="word">关注</text>
+      </view>
+      <view class="fans item">
+        <text class="num">0</text>
+        <text class="word">粉丝</text>
+      </view>
+      <view class="love item">
+        <text class="num">0</text>
+        <text class="word">喜欢</text>
+      </view>
+    </view>
+    <view class="writer-book">
+      <view class="writer-book-title center">
+        <text class="name">代表作</text>
+        <text class="nums">总共{{num}}本书</text>
+      </view>
+      <view class="writer-book-item" wx:for="{{arr}}" wx:key="index">
+        <image src="{{item.touxiang}}"></image>
+        <view class="right">
+          <text class="bookname">{{item.bookname}}</text>
+          <view class="strats">
+          <icon class="iconfont icon-start" wx:for="{{item.star-0}}" wx:key="index"></icon>
+                    <text class="fenshu">{{item.star}}</text>
+          </view>
+          <text class="about">{{item.about}}</text>
+          <text class="read">366人阅读</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

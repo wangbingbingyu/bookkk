@@ -1,0 +1,60 @@
+@import '../../style/iconfont.wxss';
+
+.center {
+  width: 654rpx;
+  margin: 0 auto;
+}
+
+.shezhi-title {
+  display: flex;
+  margin-bottom: 56rpx;
+}
+
+.shezhi-title .iconfont {
+  color: white;
+}
+
+.shezhi-title .word {
+  margin-left: 250rpx;
+  color: white;
+  font-size: 44rpx;
+}
+
+.some-inform {
+  margin-left: 48rpx;
+  padding-bottom: 240rpx;
+}
+
+.some-inform .items {
+  padding-right: 48rpx;
+  padding-top: 52rpx;
+  padding-bottom: 52rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #333c47;
+}
+
+.some-inform .items .inform {
+  font-size: 36rpx;
+  color: white;
+}
+
+.some-inform .items .iconfont {
+  color: #a2a8ba;
+}
+
+.some-inform .items .nums {
+  width: 36rpx;
+  height: 36rpx;
+  color: white;
+  font-size: 24rpx;
+  background-color: #fb6894;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.some-inform .items .money {
+  margin-right: 12rpx;
+  font-size: 24rpx;
+  color: #dcdeea;
+}

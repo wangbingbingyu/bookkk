@@ -1,5 +1,4 @@
 <view class="explore-content" hidden="{{show}}">
-  {{shows}}
   <block>
     <view class="explore-content-item" data-ind="{{index}}" wx:for='{{books}}' wx:key="{{item.id}}" bindtap="book">
       <image src="{{item.touxiang}}"></image>
@@ -9,7 +8,6 @@
 </view>
 
 <view class='exploredetail' hidden="{{!show}}">
-  {{hidden}}
   <image class="img" src="{{books[index].touxiang}}"></image>
   <text class="bookname">{{books[index].bookname}}</text>
   <text class="author">{{books[index].writername}}</text>

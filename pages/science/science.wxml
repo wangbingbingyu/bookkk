@@ -1,7 +1,7 @@
 <view class="science ">
   <view class="science-title wrapper">
     <navigator open-type='navigateBack'>
-      <icon class="iconfont icon-jiang-up-left"></icon>
+      <icon class="iconfont icon-jiantou"></icon>
     </navigator>
     <text class="word">{{options.type}}</text>
     <icon class="iconfont icon-caidan"></icon>

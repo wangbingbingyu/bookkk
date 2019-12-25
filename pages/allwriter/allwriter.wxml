@@ -1,0 +1,108 @@
+<view class="box">
+  <view class="allwriter">
+    <view class="allwriter-title center">
+      <navigator open-type='navigateBack'>
+        <icon class="iconfont icon-jiantou"></icon>
+      </navigator>
+      <text class="word">作者</text>
+      <icon class="iconfont icon-caidan"></icon>
+    </view>
+    <view class="allwriter-content">
+      <view class="paihang">
+        <view class="out firsts">
+          <view class="first items" style="background-image:url({{writers[11].touxiang}})">
+            <image src="../../image/second.png"></image>
+          </view>
+          <text class="name">余秋雨</text>
+          <text class="num">5869粉丝</text>
+        </view>
+        <view class="out seconds">
+          <view class="second items" style="background-image:url({{writers[11].touxiang}})">
+            <image src="../../image/first.png"></image>
+          </view>
+          <text class="name">余秋雨</text>
+          <text class="num">5869粉丝</text>
+        </view>
+        <view class="out thirds">
+          <view class="third items" style="background-image:url({{writers[11].touxiang}})">
+            <image src="../../image/third.png"></image>
+          </view>
+          <text class="name">余秋雨</text>
+          <text class="num">5869粉丝</text>
+        </view>
+      </view>
+    </view>
+    <view class="hot">
+      <view class="hot-title">
+        <text class="look-all">热门作者</text>
+        <view class="more">
+          <text class="word">查看全部</text>
+          <icon class="iconfont icon-dayu"></icon>
+        </view>
+      </view>
+      <view class="hot-content number">
+        <scroll-view class="box" scroll-x="true" scroll-y='false'>
+          <view class="outs">
+            <block>
+              <view class="hot-content-item" wx:for='{{writers}}' wx:key='index'>
+                <navigator url="/pages/science/science?type={{item.type}}">
+                  <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+                  <text class="word">{{item.name}}</text>
+                  <text class="guanzhu">已关注</text>
+                </navigator>
+              </view>
+            </block>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="hot">
+      <view class="hot-title">
+        <text class="look-all">新进作者</text>
+        <view class="more">
+          <text class="word">查看全部</text>
+          <icon class="iconfont icon-dayu"></icon>
+        </view>
+      </view>
+      <view class="hot-content number">
+        <scroll-view class="box" scroll-x="true" scroll-y='false'>
+          <view class="outs">
+            <block>
+              <view class="hot-content-item" wx:for='{{writers}}' wx:key='index'>
+                <navigator url="/pages/science/science?type={{item.type}}">
+                  <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+                  <text class="word">{{item.name}}</text>
+                  <text class="guanzhu">已关注</text>
+                </navigator>
+              </view>
+            </block>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <view class="hot">
+      <view class="hot-title">
+        <text class="look-all">其他作者</text>
+        <view class="more">
+          <text class="word">查看全部</text>
+          <icon class="iconfont icon-dayu"></icon>
+        </view>
+      </view>
+      <view class="hot-content number">
+        <scroll-view class="box" scroll-x="true" scroll-y='false'>
+          <view class="outs">
+            <block>
+              <view class="hot-content-item" wx:for='{{writers}}' wx:key='index'>
+                <navigator url="/pages/science/science?type={{item.type}}">
+                  <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+                  <text class="word">{{item.name}}</text>
+                  <text class="guanzhu">已关注</text>
+                </navigator>
+              </view>
+            </block>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+<view class="box">
+  <view class="shezhi">
+    <view class="shezhi-title center">
+      <navigator open-type='navigateBack'>
+        <icon class="iconfont icon-jiantou"></icon>
+      </navigator>
+      <text class="word">设置</text>
+    </view>
+    <view class="some-inform">
+      <view class="items">
+        <text class="inform">查看账户</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+      <view class="items">
+        <text class="inform">个人资料</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+      <view class="items">
+        <text class="inform">消息提醒</text>
+        <switch color="#fb6894" checked="{{switch1Checked}}" bindchange="switch1Change"></switch>
+      </view>
+      <view class="items">
+        <text class="inform">清理缓存</text>
+        <view class="right">
+          <text class="money">128M</text>
+          <icon class="iconfont icon-dayu"></icon>
+        </view>
+      </view>
+      <view class="items">
+        <text class="inform">帮助中心</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+      <view class="items">
+        <text class="inform">关于我们</text>
+        <icon class="iconfont icon-dayu"></icon>
+      </view>
+    </view>
+  </view>
+</view>

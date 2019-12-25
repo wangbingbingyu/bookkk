@@ -1,0 +1,146 @@
+@import '../../style/iconfont.wxss';
+
+.center {
+  width: 654rpx;
+  margin: 0 auto;
+}
+
+.owner-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 48rpx;
+}
+
+.owner-title .name {
+  color: white;
+  font-size: 44rpx;
+  margin-right: 246rpx;
+}
+
+.owner-title image {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.owner-inform {
+  display: flex;
+}
+
+.owner-inform image {
+  width: 240rpx;
+  height: 240rpx;
+  margin-right: 34rpx;
+}
+
+.owner-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.owner-detail .name {
+  font-size: 44rpx;
+  color: white;
+  margin-bottom: 16rpx;
+}
+
+.owner-detail .address {
+  font-size: 28rpx;
+  color: #b5b7c5;
+}
+
+.fenxiang {
+  align-self: flex-end;
+  width: 180rpx;
+  line-height: 64rpx;
+  color: #71768c;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2rpx solid #545d66;
+  border-radius: 20rpx;
+}
+
+.fenxiang image {
+  width: 22rpx;
+  height: 22rpx;
+  margin-right: 14rpx;
+}
+
+.fenxiang .word {
+  font-size: 26rpx;
+}
+
+.owner-details {
+  display: flex;
+  height: 126rpx;
+  align-items: center;
+  background-color: #2b323b;
+  justify-content: space-between;
+  margin-top: 50rpx;
+  border-radius: 20rpx;
+  margin-bottom: 86rpx;
+  box-shadow: 2rpx 2rpx 2rpx #2b323b;
+}
+
+.owner-details .love {
+  border-right: none;
+}
+
+.owner-details .item {
+  width: 216rpx;
+  height: 80rpx;
+  border-right: 2rpx solid #363c45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.owner-details .item .num {
+  font-size: 36rpx;
+  color: white;
+}
+
+.owner-details .item .word {
+  font-size: 24rpx;
+  color: #75808d;
+}
+
+.some-inform {
+  margin-left: 48rpx;
+  padding-bottom: 240rpx;
+}
+
+.some-inform .items {
+  padding-right: 48rpx;
+  padding-top: 52rpx;
+  padding-bottom: 52rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #333c47;
+}
+
+.some-inform .items .inform {
+  font-size: 36rpx;
+  color: white;
+}
+
+.some-inform .items .iconfont {
+  color: #a2a8ba;
+}
+
+.some-inform .items .nums {
+  width: 36rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  color: white;
+  font-size: 24rpx;
+  background-color: #fb6894;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.some-inform .items .money {
+  margin-right: 12rpx;
+  font-size: 36rpx;
+  color: #fb6894;
+}

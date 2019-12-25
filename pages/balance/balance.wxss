@@ -1,0 +1,57 @@
+@import '../../style/iconfont.wxss';
+
+.center {
+  width: 654rpx;
+  margin: 0 auto;
+}
+
+.balance-title {
+  display: flex;
+  margin-bottom: 74rpx;
+}
+
+.balance-title .iconfont {
+  color: white;
+}
+
+.balance-title .word {
+  margin-left: 250rpx;
+  color: white;
+  font-size: 44rpx;
+}
+
+.balance-content {
+  height: 320rpx;
+  background-color: #2b323b;
+  border-radius: 30rpx;
+  box-shadow: 2rpx 2rpx 2rpx #2b323b;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50rpx;
+}
+
+.balance-content .word {
+  margin-top: 60rpx;
+  font-size: 48rpx;
+  color: #75808d;
+}
+
+.balance-content .monrey{
+  color: white;
+  font-size: 128rpx;
+}
+
+.recharge{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.recharges{
+  width: 100%;
+  line-height: 142rpx;
+  text-align: center;
+  font-size: 44rpx;
+  color: white;
+  background-color: #fb6894;
+}

@@ -1,2 +1,37 @@
-<!--pages/recharge/recharge.wxml-->
-<text>pages/recharge/recharge.wxml</text>
+<view class="box">
+  <view class="balance">
+    <view class="balance-title center">
+      <navigator open-type='navigateBack'>
+        <icon class="iconfont icon-jiantou"></icon>
+      </navigator>
+      <text class="word">充值</text>
+    </view>
+    <view class="balance-content center">
+      <text class="word">余额充值(元)</text>
+      <icon class="iconfont icon-qian"></icon>
+      <input type="number" bindinput="bindInput" class="monrey"></input>
+    </view>
+    <view class="recharges" bindtap="recharge">下一步</view>
+    <view class="order" hidden="{{hidden}}">
+      <image src="../../image/close.png" bindtap="close"></image>
+      <text class="queren">确认金额(元)</text>
+      <text class="money">{{money}}</text>
+      <view class="order-infor">
+        <text class="name">订单信息</text>
+        <text class="word">充值</text>
+      </view>
+      <view class="mode">
+        <text class="name">付款方式</text>
+        <view class="right">
+          <text class="mode-name">中国银行卡(0288)</text>
+        <icon class="iconfont icon-dayu"></icon>
+        </view>
+      </view>
+      <view class="yanzheng">
+        <icon class="iconfont icon-zhiwen"></icon>
+        <text class="wenzi">指纹验证或</text>
+        <text class="mima">输入密码</text>
+      </view>
+    </view>
+  </view>
+</view>

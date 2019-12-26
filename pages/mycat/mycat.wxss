@@ -1,0 +1,97 @@
+@import '../../style/iconfont.wxss';
+
+.center{
+  width: 654rpx;
+  margin: 0 auto;
+}
+.science {
+  background-color: #21272e;
+}
+
+.science-content-item {
+  margin-top: 90rpx;
+  display: inline-block;
+  margin-right: 30rpx;
+  width: 660rpx;
+  height: 252rpx;
+  background-color: #2f343c;
+  margin-bottom: 90rpx;
+}
+
+.science-content-item image {
+  width: 170rpx;
+  height: 252rpx;
+  margin-bottom: 20rpx;
+  float: left;
+  margin-right: 30rpx;
+  margin-left: 34rpx;
+  margin-top: -45rpx;
+}
+
+.science-content-item  .title {
+  width: 350rpx;
+  margin-top: 32rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.title .bookname {
+  font-size: 36rpx;
+  color: white;
+}
+
+.title .iconfont {
+  align-items: center;
+  color: #969baf;
+}
+
+.author {
+  display: inline-block;
+  width: 100%;
+  color: #5a6078;
+  font-size: 24rpx;
+  padding-bottom: 22rpx;
+  border-bottom: 2rpx solid #363d47;
+}
+
+.price {
+ color:#ff1d8d;
+ font-size: 44rpx;
+}
+
+.rigth{
+  display: flex;
+  flex-direction: column
+}
+
+.jiesuan{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.jiesuan .title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.jiesuan .zongji,.yue{
+  color: white;
+  font-size: 32rpx;
+}
+.jiesuan .yuan,.qianshu{
+  color: #ff1d8d;
+  font-size: 32rpx;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.goumai{
+  line-height: 142rpx;
+  margin-top: 44rpx;
+  text-align: center;
+  background-color: #fb6894;
+  color: white;
+}

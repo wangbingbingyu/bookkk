@@ -1,0 +1,87 @@
+@import '../../style/iconfont.wxss';
+
+.pinglun {
+  margin-top: 54rpx;
+  margin-left: 48rpx;
+}
+
+.pinglun-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62rpx;
+}
+
+.left .titlet {
+  font-size: 36rpx;
+  color: white;
+}
+
+.left .num {
+  font-size: 22rpx;
+  color: #056de0;
+  margin-left: 24rpx;
+}
+
+.icon-post {
+  margin-right: 62rpx;
+  color: white;
+}
+
+.pinglun-item {
+  display: flex;
+  margin-top: 58rpx;
+}
+
+.pinglun-item image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 26rpx;
+  border-radius: 50%;
+}
+
+.pinglun-item-right {
+  display: flex;
+  margin-right: 62rpx;
+  flex-direction: column;
+}
+
+.pinglun-item-right .name {
+  font-size: 28rpx;
+  color: white;
+}
+
+.pinglun-item-right .contents {
+  font-size: 24rpx;
+  color: #868dab;
+  margin-bottom: 38rpx;
+  width: 560rpx;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #323644;
+  align-items: center;
+}
+
+.bottom .time {
+  color: #868dab;
+  font-size: 24rpx;
+}
+
+.bottom-right .iconfont {
+  margin-right: 12rpx;
+  color: #868dab;
+}
+
+.bottom-right .nums {
+  margin-right: 32rpx;
+  color: #868dab;
+  font-size: 24rpx;
+}
+
+.bottom-right .huifunum {
+  color: #868dab;
+  font-size: 24rpx;
+}

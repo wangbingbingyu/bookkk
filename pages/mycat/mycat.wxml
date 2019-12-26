@@ -1,0 +1,24 @@
+<view class="science ">
+  <view class="science-content center">
+    <block>
+      <view class="science-content-item" wx:for='{{books}}' wx:key='index'>
+        <image class="image" wx:if="{{item.touxiang}}" src="{{item.touxiang}}"></image>
+        <view class="rigth">
+          <view class="title">
+            <text class="bookname">{{item.bookname}}</text>
+            <icon class="iconfont icon-caidan1"></icon>
+          </view>
+          <text class="author">作者:{{item.writername}}</text>
+          <text class="price">￥ {{item.money}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="jiesuan">
+    <view class="title center">
+      <text class="zongji">总计(元):<text class="yuan">{{moneys}}</text></text>
+      <text class="yue">余额(元):<text class="qianshu">{{users[0].moneys}}</text></text>
+    </view>
+    <view class="goumai">购买</view>
+  </view>
+</view>

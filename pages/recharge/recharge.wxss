@@ -1,1 +1,163 @@
-/* pages/recharge/recharge.wxss */
+@import '../../style/iconfont.wxss';
+
+.center {
+  width: 654rpx;
+  margin: 0 auto;
+}
+
+.balance-title {
+  display: flex;
+  margin-bottom: 74rpx;
+}
+
+.balance-title .iconfont {
+  color: white;
+}
+
+.balance-title .word {
+  margin-left: 240rpx;
+  color: white;
+  font-size: 44rpx;
+}
+
+.balance-content {
+  height: 320rpx;
+  background-color: #2b323b;
+  border-radius: 30rpx;
+  box-shadow: 2rpx 2rpx 2rpx #2b323b;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50rpx;
+}
+
+.balance-content .word {
+  margin-top: 60rpx;
+  margin-bottom: 20rpx;
+  font-size: 48rpx;
+  color: #75808d;
+}
+
+.balance-content .monrey {
+  color: white;
+  height: 120rpx;
+  padding-top: 10rpx;
+  font-size: 128rpx;
+  padding-left: 120rpx;
+}
+
+.recharges {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 142rpx;
+  text-align: center;
+  font-size: 44rpx;
+  color: white;
+  background-color: #2e363f;
+}
+
+.order {
+  width: 100%;
+  height: 804rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: #2d353f;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.order image {
+  width: 48rpx;
+  height: 48rpx;
+  align-self: flex-end;
+  margin-top: 46rpx;
+  margin-right: 40rpx;
+}
+
+.order .queren {
+  margin-left: 66rpx;
+  font-size: 48rpx;
+  color: #75808d;
+}
+
+.order .money {
+  margin-left: 66rpx;
+  font-size: 128rpx;
+  color: white;
+  margin-top: 52rpx;
+  margin-bottom: 30rpx;
+}
+
+.order .order-infor {
+  margin-left: 66rpx;
+  padding: 52rpx 0;
+  padding-right: 46rpx;
+  border-bottom: 2rpx solid #333c47;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order .order-infor .name {
+  font-size: 36rpx;
+  color: #dcdeea;
+}
+
+.order .order-infor .word {
+  font-size: 30rpx;
+  color: #636c77;
+}
+
+.order .mode {
+  margin-left: 66rpx;
+  padding: 52rpx 0;
+  padding-right: 46rpx;
+  border-bottom: 2rpx solid #333c47;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order .mode .name {
+  font-size: 36rpx;
+  color: #dcdeea;
+}
+
+.order .mode .mode-name {
+  vertical-align: top;
+  font-size: 30rpx;
+  color: #636c77;
+}
+
+.order .mode .iconfont {
+  margin-left: 10rpx;
+  color: #dcdeea;
+}
+
+.yanzheng {
+  margin-top: 62rpx;
+}
+
+.yanzheng .iconfont {
+  margin-left: 172rpx;
+  font-size: 50rpx;
+  vertical-align: middle;
+}
+
+.yanzheng .wenzi {
+  font-size: 36rpx;
+  color: #636c77;
+  margin-right: 14rpx;
+  margin-left: 10rpx;
+}
+
+.yanzheng .mima {
+  font-size: 36rpx;
+  color: #fb6894;
+}
+
+.icon-qian{
+  position: fixed;
+  font-size: 128rpx;
+  color: white;
+  top: 270rpx;
+}

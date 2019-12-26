@@ -11,8 +11,11 @@
     "pages/shujia/shujia",
     "pages/owner/owner",
     "pages/shezhi/shezhi",
-    "pages/recharge/recharge",
     "pages/balance/balance",
+    "pages/mycat/mycat",
+    "pages/recharge/recharge",
+    "pages/pinglun/pinglun",
+    "pages/mulu/mulu",
     "pages/logs/logs"
   ],
   "window": {

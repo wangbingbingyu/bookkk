@@ -1,0 +1,38 @@
+<view class="pinglun">
+  <view class="pinglun-item">
+    <image src="../../image/book.jpg"></image>
+    <view class="pinglun-item-right">
+      <text class="name">你个废物</text>
+      <text class="contents">
+          大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典站在圣母和傻逼的微笑曲线上。大刘塑造的男性都带有明显的缺陷但本质，上极端人性化。-身痞气的小人物大史，最高情商让他活得最明白;罗辑的荒唐和不羁让他成了救世主，但也决定了他必不能善终;软弱怯懦固执的云天明，也并无理由因为慷慨和运气就得到爱啊。但我真心理解这样的人，这样的性格，这样的命运。
+        </text>
+      <view class="bottom">
+        <text class="time">12-24 12:20</text>
+        <view class="bottom-right">
+          <text class="iconfont icon-xin"></text>
+          <text class="nums">134</text>
+          <text class="iconfont icon-huifu"></text>
+          <text class="huifunum">83</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="pinglun-item">
+    <image src="../../image/book.jpg"></image>
+    <view class="pinglun-item-right">
+      <text class="name">你个废物</text>
+      <text class="contents">
+          大刘塑造的女性都具有明显的圣母特质，但是本质上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典站在圣母和傻逼的微笑曲线上。大刘塑造的男性都带有明显的缺陷但本质，上极端人性化。-身痞气的小人物大史，最高情商让他活得最明白;罗辑的荒唐和不羁让他成了救世主，但也决定了他必不能善终;软弱怯懦固执的云天明，也并无理由因为慷慨和运气就得到爱啊。但我真心理解这样的人，这样的性格，这样的命运。
+        </text>
+      <view class="bottom">
+        <text class="time">12-24 12:20</text>
+        <view class="bottom-right">
+          <text class="iconfont icon-xin"></text>
+          <text class="nums">134</text>
+          <text class="iconfont icon-huifu"></text>
+          <text class="huifunum">83</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -104,6 +104,7 @@ App({
     books: '',
     hostser: '',
     users:'',
-    shows:false
+    shows:false,
+    arrs:[]
   }
 })

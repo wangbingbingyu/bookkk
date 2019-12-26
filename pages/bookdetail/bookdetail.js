@@ -10,6 +10,9 @@ Page({
   hidden: true,
   hiddens: true
   },
+  push(){
+    app.globalData.arrs.push(this.data.items)
+  },
   buttonTap(){
     this.setData({
       hidden:false
@@ -40,7 +43,6 @@ Page({
     this.setData({
       items
     })
-    console.log(this.data.items)
   },
 
   /**

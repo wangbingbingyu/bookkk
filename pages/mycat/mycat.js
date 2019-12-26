@@ -1,32 +1,12 @@
-// pages/recharge/recharge.js
+// pages/mycat/mycat.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    money:0
-  },
 
-  bindInput(e){
-    let money = Number(e.detail.value)
-    this.setData({
-      money
-    })
-  },
-
-  close(){
-    this.setData({
-      hidden:true
-    })
-  },
-  recharge(){
-    if(this.data.money===0){
-      return
-    }
-    this.setData({
-      hidden: false
-    })
   },
 
   /**
@@ -34,7 +14,16 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      hidden:true
+      books: app.globalData.arrs,
+      users:app.globalData.users
+    })
+    let moneys = 0 
+    this.data.books.forEach(item=>{
+      
+      moneys += Number(item.money)
+    })
+    this.setData({
+      moneys
     })
   },
 

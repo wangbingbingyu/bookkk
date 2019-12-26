@@ -15,7 +15,7 @@
 }
 
 .balance-title .word {
-  margin-left: 250rpx;
+  margin-left: 210rpx;
   color: white;
   font-size: 44rpx;
 }

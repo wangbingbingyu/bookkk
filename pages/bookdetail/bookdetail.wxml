@@ -27,10 +27,12 @@
       <icon class="iconfont icon-stake-copy-copy"></icon>
       <text class="word">书架</text>
     </view>
-    <view class="modals" hidden="{{hidden}}">
-      <image src="{{items.touxiang}}"></image>
-      <view class="text">已经将这本书加入到个人书架</view>
-      <text class="word" bindtap="close">好的</text>
+    <view class="modals-out" hidden="{{hidden}}">
+      <view class=" modals">
+        <image src="{{items.touxiang}}"></image>
+        <view class="text">已经将这本书加入到个人书架</view>
+        <text class="word" bindtap="close">好的</text>
+      </view>
     </view>
     <view class="fenxiangs" hidden="{{hiddens}}">
       <text class="closess" bindtap="closeit">x</text>
@@ -46,18 +48,22 @@
     <text class="title">详情</text>
     <text class="comment-item">{{comment}}</text>
   </view>
-  <view class="mulu">
-    <text class="mulus">查看目录</text>
-    <icon class="iconfont icon-dayu"></icon>
-  </view>
-  <view class="pinglun">
-    <view class="pinglun-title">
-      <view class="left">
-        <text class="titlet">评论</text>
-        <text class="num">215条评论</text>
-      </view>
-      <icon class="iconfont icon-post"></icon>
+  <navigator url="/pages/mulu/mulu">
+    <view class="mulu">
+      <text class="mulus">查看目录</text>
+      <icon class="iconfont icon-dayu"></icon>
     </view>
+  </navigator>
+  <view class="pinglun">
+    <navigator url="/pages/pinglun/pinglun" bindtap="mulu">
+      <view class="pinglun-title">
+        <view class="left">
+          <text class="titlet">评论</text>
+          <text class="num">215条评论</text>
+        </view>
+        <icon class="iconfont icon-post"></icon>
+      </view>
+    </navigator>
     <view class="pinglun-item">
       <image src="../../image/book.jpg"></image>
       <view class="pinglun-item-right">
@@ -79,6 +85,8 @@
   </view>
   <view class="abili">
     <view class="lookit">试看</view>
-    <view class="buy">购买</view>
+    <navigator url="/pages/mycat/mycat" bindtap="push">
+      <view class="buy">购买</view>
+    </navigator>
   </view>
 </view>

@@ -13,7 +13,6 @@
   justify-content: space-between;
   padding-bottom: 60rpx;
   border-bottom: 2rpx solid #323644;
-  margin-bottom: 44rpx;
 }
 
 .content image {
@@ -66,8 +65,12 @@
   display: flex;
   justify-content: space-between;
   margin-left: 48rpx;
-  padding-bottom: 40rpx;
   border-bottom: 2rpx solid #323644;
+}
+
+.caozuo .item {
+  padding-top: 44rpx;
+  padding-bottom: 40rpx;
 }
 
 .caozuo .word {
@@ -130,7 +133,6 @@
 .pinglun {
   margin-top: 54rpx;
   margin-left: 48rpx;
-  border-bottom: 2rpx solid #323644;
 }
 
 .pinglun-title {
@@ -157,7 +159,7 @@
 
 .pinglun-item {
   display: flex;
-  padding-bottom: 44rpx;
+  padding-bottom: 158rpx;
 }
 
 .pinglun-item image {
@@ -188,6 +190,9 @@
 .bottom {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #323644;
+  align-items: center;
 }
 
 .bottom .time {
@@ -204,13 +209,11 @@
   margin-right: 32rpx;
   color: #868dab;
   font-size: 24rpx;
-  vertical-align: middle;
 }
 
 .bottom-right .huifunum {
   color: #868dab;
   font-size: 24rpx;
-  vertical-align: middle;
 }
 
 .abili {
@@ -220,6 +223,9 @@
   align-items: center;
   height: 156rpx;
   background-color: #373a49;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .lookit {
@@ -242,17 +248,28 @@
   border-radius: 50rpx;
 }
 
+.modals-out {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+
 .modals {
   text-align: center;
   display: flex;
-  width: 500rpx;
+  width: 550rpx;
   height: 766rpx;
   flex-direction: column;
   align-items: center;
   background-color: #373a48;
   position: fixed;
-  top: 100rpx;
+  top: 200rpx;
   left: 100rpx;
+  border-radius: 50rpx;
 }
 
 .modals image {
@@ -279,22 +296,23 @@
   border-radius: 50rpx;
 }
 
-.fenxiangs{
+.fenxiangs {
   width: 100%;
   height: 336rpx;
   background-color: #2d353f;
   position: fixed;
-  top: 600rpx;
+  bottom: 0;
   display: flex;
   left: 0;
+  z-index: 10;
 }
 
-.fenxiangs .closess{
+.fenxiangs .closess {
   text-align: center;
   line-height: 46rpx;
   width: 46rpx;
   font-size: 30rpx;
-  color:white;
+  color: white;
   background-color: #1b1f24;
   position: absolute;
   right: 38rpx;
@@ -302,15 +320,14 @@
   border-radius: 50%;
 }
 
-.outimage{
+.outimage {
   display: flex;
   justify-content: space-around;
   width: 100%;
   margin-top: 150rpx;
 }
 
-
-.fenxiangs image{
+.fenxiangs image {
   width: 80rpx;
   height: 80rpx;
 }

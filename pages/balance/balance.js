@@ -15,6 +15,10 @@ Page({
   onLoad: function (options) {
     this.setData({
       users: app.globalData.users
+    },function(){
+      this.setData({
+        mymoney: Number(this.data.users[0].moneys).toFixed(2)
+      })
     })
   },
 

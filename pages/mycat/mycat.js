@@ -16,6 +16,11 @@ Page({
     this.setData({
       books: app.globalData.arrs,
       users:app.globalData.users
+    },function(){
+      let mymoney = Number(this.data.users[0].moneys).toFixed(2)
+     this.setData({
+       mymoney
+     })
     })
     let moneys = 0 
     this.data.books.forEach(item=>{
@@ -23,7 +28,7 @@ Page({
       moneys += Number(item.money)
     })
     this.setData({
-      moneys
+      moneys:moneys.toFixed(2)
     })
   },
 

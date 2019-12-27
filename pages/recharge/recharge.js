@@ -9,7 +9,7 @@ Page({
   },
 
   bindInput(e){
-    let money = Number(e.detail.value)
+    let money = Number(e.detail.value).toFixed(2)
     this.setData({
       money
     })

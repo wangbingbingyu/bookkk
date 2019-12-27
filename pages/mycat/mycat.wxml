@@ -17,7 +17,7 @@
   <view class="jiesuan">
     <view class="title center">
       <text class="zongji">总计(元):<text class="yuan">{{moneys}}</text></text>
-      <text class="yue">余额(元):<text class="qianshu">{{users[0].moneys}}</text></text>
+      <text class="yue">余额(元):<text class="qianshu">{{mymoney}}</text></text>
     </view>
     <view class="goumai">购买</view>
   </view>
